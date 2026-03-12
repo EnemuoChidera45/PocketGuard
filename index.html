@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PocketGuard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav class="phone-container">
+      <header class="header">
+        <img
+          src="data:image/png;base64,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"
+          alt="profile picture"
+          class="profile-pic"
+        />
+        <span class="welcome-text">Welcome back</span>
+        <div class="bell-icon">🔔</div>
+      </header>
+
+      <section class="Balance-section">
+        <p class="balance-label">Account balance</p>
+        <h1 class="balance-amount">$34,567.90</h1>
+        <p class="account-number">📋 1289440585</p>
+      </section>
+
+      <nav class="Transactions-section">
+        <div class="action-item">
+          <div class="icon-circle">↑</div>
+          <span>Send</span>
+        </div>
+        <div class="action-item">
+          <div class="icon-circle">+</div>
+          <span>Add funds</span>
+        </div>
+        <div class="action-item">
+          <div class="icon-circle">↓</div>
+          <span>Request</span>
+        </div>
+        <div class="action-item">
+          <div class="icon-circle">...</div>
+          <span>More</span>
+        </div>
+      </nav>
+
+      <section class="transactions">
+        <div class="trans-header">
+          <h3>Transactions</h3>
+          <a href="#">see all</a>
+        </div>
+
+        <div class="transaction-list">
+          <div class="trans-item">
+            <div class="trans-icon">↑</div>
+            <div class="trans-info">
+              <p class="name">Groceries</p>
+              <p class="details">debited 12 Nov 2022</p>
+            </div>
+            <div class="trans-amount">
+              <p class="main-val">-$1,923</p>
+            </div>
+          </div>
+
+          <div class="trans-item">
+            <div class="trans-icon">↑</div>
+            <div class="trans-info">
+              <p class="name">Groceries</p>
+              <p class="details">debited 12 Nov 2022</p>
+            </div>
+            <div class="trans-amount">
+              <p class="main-val">-$1,923</p>
+            </div>
+          </div>
+
+          <div class="trans-item">
+            <div class="trans-icon">↑</div>
+            <div class="trans-info">
+              <p class="name">Groceries</p>
+              <p class="details">debited 12 Nov 2022</p>
+            </div>
+            <div class="trans-amount">
+              <p class="main-val">-$1,923</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="bottom-nav">
+        <div class="nav-tab active">
+          <span>🏠</span>
+          <p>Home</p>
+        </div>
+        <div class="nav-tab">
+          <span>💳</span>
+          <p>Wallet</p>
+        </div>
+        <div class="nav-tab">
+          <span>⚙️</span>
+          <p>Setting</p>
+        </div>
+      </footer>
+    </nav>
+  </body>
+</html>
